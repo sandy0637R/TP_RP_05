@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Function(Counter)</title>
 </head>
 <body>
-    <div style="padding: 30px 100px;background-color: rgb(90, 90, 70);width: fit-content;" id="hi">
+    <div style="padding: 30px 100px;background-color: rgb(90, 90, 70);width: fit-content;" id="Screen">
         0
     </div>
     <div style="padding: 15px 25px;background-color: aqua;width: fit-content;" onclick="Count()">
@@ -16,7 +16,7 @@
         var n=0;
         function Count(){
             n++;
-            document.getElementById('hi').innerHTML=n;
+            document.getElementById('Screen').innerHTML=n;
             console.log(n)
         }
     </script>
